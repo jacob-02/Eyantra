@@ -1,0 +1,118 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect 240 296 408 312)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "CLK" (rect 5 0 26 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(output)
+	(rect 904 320 1080 336)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "Y[2..0]" (rect 90 0 124 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(connector
+	(text "Q[2..0]" (rect 858 312 889 329)(font "Intel Clear" ))
+	(pt 848 328)
+	(pt 904 328)
+	(bus)
+)
+(text "Final Output" (rect 904 288 993 308)(font "Intel Clear" (font_size 10)))
+(text "Instructions : 1. Use Symbol files of T_ff   . " (rect 240 152 535 168)(font "Arial" (font_size 10)))
+(text "Note : This is only for representation.  " (rect 528 248 751 267)(font "Intel Clear" (font_size 8)))
+(text "Delete this Red block and everything inside it." (rect 528 264 799 283)(font "Intel Clear" (font_size 8)))
+(text "Replace with blocks which you created." (rect 528 280 756 299)(font "Intel Clear" (font_size 8)))
+(text "T_FF_1" (rect 656 416 700 435)(font "Intel Clear" (font_size 8)))
+(text "T_FF_0" (rect 656 496 700 515)(font "Intel Clear" (font_size 8)))
+(text "T_FF_2" (rect 656 336 700 355)(font "Intel Clear" (font_size 8)))
+(text "Q[2]" (rect 760 312 787 331)(font "Intel Clear" (font_size 8)))
+(text "Q2_bar" (rect 760 344 804 363)(font "Intel Clear" (font_size 8)))
+(text "  Q[1]" (rect 752 392 786 411)(font "Intel Clear" (font_size 8)))
+(text "Q[0]" (rect 760 472 787 491)(font "Intel Clear" (font_size 8)))
+(text "Q1_bar" (rect 760 424 804 443)(font "Intel Clear" (font_size 8)))
+(text "Q0_bar" (rect 760 504 804 523)(font "Intel Clear" (font_size 8)))
+(text "CLK" (rect 472 288 495 307)(font "Intel Clear" (font_size 8)))
+(text "2. Inputs and Outputs are predefined. Do not change them. Experiment won't be evaluated if changed." (rect 320 176 1010 192)(font "Arial" (font_size 10)))
+(text "Combinational" (rect 456 328 542 347)(font "Intel Clear" (font_size 8)))
+(text "ckt" (rect 488 344 505 363)(font "Intel Clear" (font_size 8)))
+(text "Combinational" (rect 456 408 542 427)(font "Intel Clear" (font_size 8)))
+(text "ckt" (rect 488 424 505 443)(font "Intel Clear" (font_size 8)))
+(text "Combinational" (rect 456 480 542 499)(font "Intel Clear" (font_size 8)))
+(text "ckt" (rect 488 496 505 515)(font "Intel Clear" (font_size 8)))
+(text "seq_ckt" (rect 536 96 615 118)(font "Arial" (font_size 14)))
+(text "T" (rect 624 312 632 331)(font "Intel Clear" (font_size 8)))
+(text "   T" (rect 616 392 634 411)(font "Intel Clear" (font_size 8)))
+(text "T" (rect 624 472 632 491)(font "Intel Clear" (font_size 8)))
+(text "CLK" (rect 608 344 631 363)(font "Intel Clear" (font_size 8)))
+(text "CLK" (rect 608 424 631 443)(font "Intel Clear" (font_size 8)))
+(text "CLK" (rect 608 504 631 523)(font "Intel Clear" (font_size 8)))
+(text "Clock input to all 3 FFs ." (rect 256 256 423 276)(font "Intel Clear" (font_size 10)))
+(line (pt 704 328)(pt 744 328))
+(line (pt 704 352)(pt 744 352))
+(line (pt 704 408)(pt 752 408))
+(line (pt 704 432)(pt 752 432))
+(line (pt 704 488)(pt 752 488))
+(line (pt 704 512)(pt 752 512))
+(line (pt 648 336)(pt 608 336))
+(line (pt 648 360)(pt 608 360))
+(line (pt 648 416)(pt 608 416))
+(line (pt 648 440)(pt 608 440))
+(line (pt 648 496)(pt 608 496))
+(line (pt 648 520)(pt 608 520))
+(line (pt 584 360)(pt 616 360))
+(line (pt 584 440)(pt 616 440))
+(line (pt 584 520)(pt 608 520))
+(line (pt 584 336)(pt 584 520))
+(line (pt 584 328)(pt 584 344))
+(line (pt 552 336)(pt 616 336))
+(line (pt 552 416)(pt 616 416))
+(line (pt 552 496)(pt 616 496))
+(line (pt 584 328)(pt 584 312))
+(line (pt 584 312)(pt 472 312))
+(line (pt 744 328)(pt 752 328))
+(line (pt 744 352)(pt 752 352))
+(rectangle (rect 440 248 824 536)(color 255 0 0))
+(rectangle (rect 648 320 704 368))
+(rectangle (rect 648 400 704 448))
+(rectangle (rect 648 480 704 528))
