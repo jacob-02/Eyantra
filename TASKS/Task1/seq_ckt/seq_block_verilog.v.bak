@@ -15,7 +15,7 @@
 
 // PROGRAM		"Quartus Prime"
 // VERSION		"Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
-// CREATED		"Fri Nov 05 16:39:12 2021"
+// CREATED		"Sun Nov 07 15:46:49 2021"
 
 module seq_block(
 	CLK,
